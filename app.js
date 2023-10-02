@@ -34,7 +34,7 @@ async function urlToBase64(url) {
 
     let page_number = 1;
     while (true) {
-        await page.goto('https://www.soketsan.com.tr/urunara?page=' + page_number);
+        await page.goto('https://www.examplepage.com/search?page=' + page_number); //This study was conducted to capture data from an e-commerce website. Please do not run it without permission from the owners of the websites.
 
         const links = await page.evaluate(() => {
             return Array.from(document.querySelectorAll(".product-item")).map(product => product.children[0].children[0].children[0].children[0].children[1].children[0].href);
