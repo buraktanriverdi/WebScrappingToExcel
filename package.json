@@ -1,0 +1,11 @@
+{
+  "name": "webscrappingtoexcel",
+  "version": "1.0.0",
+  "description": "This script is designed to extract product details from a specific website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
