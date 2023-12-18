@@ -1,6 +1,6 @@
 # Web Scraping and Excel Export Script
 
-This Node.js script utilizes Puppeteer for web scraping and ExcelJS for exporting data to Excel. The script is designed to extract product details from a specific website, [https://www.soketsan.com.tr/urunara](https://www.soketsan.com.tr/urunara), and save the information in an Excel file.
+This Node.js script utilizes Puppeteer for web scraping and ExcelJS for exporting data to Excel. The script is designed to extract product details from a specific website, and save the information in an Excel file.
 
 ## Dependencies
 - **puppeteer:** Node library for browser automation.
