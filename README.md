@@ -19,7 +19,7 @@ This Node.js script utilizes Puppeteer for web scraping and ExcelJS for exportin
 
 ## Important Notes
 - The script assumes a specific HTML structure on the target website. Changes in the structure may require script modifications.
-- The headless browser is set to visible (`headless: false`). For production, set it to `true` for a background operation.
+- The headless browser is set to visible (`headless: false`). For production, set it to `headless: "new"` for a background operation.
 - Additional error handling may be needed based on specific use cases.
 
 Feel free to adapt the script to your requirements and consult the Puppeteer and ExcelJS documentation for further customization.
